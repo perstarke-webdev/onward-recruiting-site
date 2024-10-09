@@ -51,7 +51,7 @@
     let maxScroll = 1000;
     let scaleValue = 1 - (scrollPosition / maxScroll);
 
-    if (scaleValue < 0.75) scaleValue = 0.75;
+    if (scaleValue < 0.8) scaleValue = 0.8;
     if (scaleValue > 1) scaleValue = 1;
 
     heroContent.style.transform = `scale(${scaleValue})`;
