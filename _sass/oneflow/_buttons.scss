@@ -101,28 +101,42 @@
 
 
 .btn--cta {
-  position: relative;
-  max-width: 80vw;
-  color: #fff;
-  background-image: linear-gradient(to right, #35dba0, #4677e1);
-  border-radius: $border-radius;
-  cursor: pointer;
-  overflow: hidden;
-  transition: background-image 0.3s ease;
+    position: relative;
+    max-width: 70vw;
+    color: #fbf6e8;
+    background-image: linear-gradient(to right, #35dba0, #4677e1);
+    border-radius: $border-radius;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-image 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.5s ease;
-    border-radius: inherit;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0);
+        transition: background-color 0.5s ease;
+        border-radius: inherit;
   }
 
-  &:hover:before {
-    background-color: rgba(0, 0, 0, 0.15);
+    &:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    &:hover:before {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+}
+
+
+@media (max-width: 767px) {
+  .btn--cta {
+    padding: 0.7em 1.5em; 
   }
 }
