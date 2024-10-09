@@ -12,3 +12,6 @@ main:
   - title: "Als Unternehmen"
     url: /#unternehmen
     blank: false
+  - title: "Kontakt"
+    url: /#kontakt
+    blank: false
