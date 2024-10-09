@@ -36,7 +36,7 @@ footer:
   links: # replace the URL's with your own for every link you want to have in your footer.
     - label: "Email"
       icon: "fa fa-envelope"
-      url: "info@onward-recruiting.de"
+      url: "mailto: info@onward-recruiting.de"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.instagram.com/per.starke/"
