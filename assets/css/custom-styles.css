@@ -10,3 +10,19 @@
     width: 30vw;
     min-width: 250px;
 }
+
+.margin-bottom {
+    margin-bottom: 3rem;
+}
+
+
+.margin-top-desktop {
+    margin-top: 3rem;
+}
+
+
+@media (max-width: 767px){
+    .margin-top-desktop {
+        margin-top: 0rem;
+    }
+}

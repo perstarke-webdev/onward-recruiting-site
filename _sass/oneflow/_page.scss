@@ -75,7 +75,7 @@ body {
   font-family: $global-font-family;
   font-size: $type-size-4;
   text-align: center;
-  color: $text-color !important;
+  color: #00122a !important;
 }
 
 .page__content {
@@ -208,7 +208,6 @@ text-align: center;
 
     .page__title,
     .page__meta,
-    .page__lead,
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);

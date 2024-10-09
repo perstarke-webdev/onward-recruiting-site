@@ -93,3 +93,36 @@
     font-size: $type-size-7;
   }
 }
+
+
+
+
+
+
+
+.btn--cta {
+  position: relative;
+  max-width: 80vw;
+  color: #fff;
+  background-image: linear-gradient(to right, #35dba0, #4677e1);
+  border-radius: $border-radius;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-image 0.3s ease;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease;
+    border-radius: inherit;
+  }
+
+  &:hover:before {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+}
