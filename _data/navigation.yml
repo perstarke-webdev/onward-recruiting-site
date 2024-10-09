@@ -6,7 +6,7 @@ main:
   - title: "Vorteile"
     url: /#vorteile
     blank: false
-  - title: "Als Kandidat:In"
+  - title: "Als Kandidat:in"
     url: /#kandidatinnen
     blank: false
   - title: "Als Unternehmen"
