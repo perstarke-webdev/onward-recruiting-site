@@ -26,3 +26,10 @@
         margin-top: 0rem;
     }
 }
+
+
+.header-logo, .page__lead, .btn--cta {
+  transform-origin: center;
+  transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+}
+

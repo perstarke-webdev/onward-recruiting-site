@@ -17,23 +17,47 @@
 
 <div class="wrapper">
 
-    <div class="logo-container margin-bottom margin-top-desktop">
-      <img src="/assets/images/logo.webp" alt="Onward Recruiting" class="header-logo">
-    </div>
+        <div class="hero-content">
+            <div class="logo-container margin-bottom margin-top-desktop">
+                <img src="/assets/images/logo.webp" alt="Onward Recruiting" class="header-logo">
+            </div>
 
+            <p class="page__lead margin-bottom"><strong>Ihre Personalberatung für die digitale Zukunft</strong></p>
 
-    <p class="page__lead margin-bottom"><strong>Ihre Personalberatung für die digitale Zukunft</strong>
-    </p>
-
-
-    <div style="text-align: center">
-      <p>
-
-        <a href="#kontakt" class="btn btn--cta btn--large" >Sprechen Sie mit uns über Ihre IT-Bedürfnisse <i class="fas fa-handshake"></i></a>
+            <div style="text-align: center">
+                <a href="#kontakt" class="btn btn--cta btn--large">Sprechen Sie mit uns über Ihre IT-Bedürfnisse <i class="fas fa-handshake"></i></a>
+            </div>
+        </div>
 
     </div>
+
 
   </div>
 
 
 </div>
+
+
+
+
+
+
+<script>
+  window.addEventListener('scroll', function() {
+    let scrollPosition = window.scrollY;
+
+    const heroContent = document.querySelector('.hero-content');
+
+    let maxScroll = 1000;
+    let scaleValue = 1 - (scrollPosition / maxScroll);
+
+    if (scaleValue < 0.75) scaleValue = 0.75;
+    if (scaleValue > 1) scaleValue = 1;
+
+    heroContent.style.transform = `scale(${scaleValue})`;
+    heroContent.style.opacity = scaleValue;
+  });
+</script>
+
+
+
