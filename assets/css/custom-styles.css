@@ -64,6 +64,11 @@
     vertical-align: 0.07em;
 }
 
+.footer-logo {
+    width: 14em;
+    margin-left: 0.2em;
+}
 
-
-
+.spacing {
+    margin: 0.7em 0 0.9em 0;
+}
