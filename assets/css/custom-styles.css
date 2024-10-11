@@ -33,3 +33,37 @@
   transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
 }
 
+.bigger {
+    font-size: 120% !important;
+    font-weight: bold;
+}
+
+.notice-link {
+    color: #4677e1 !important;
+}
+
+.notice-link:hover {
+    color: #3d69c9 !important;
+}
+
+.logo-colored-icon {
+    display: inline-block;
+    background-image: linear-gradient(to right, #35dba0, #4677e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.logo-colored-icon i {
+    background: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    vertical-align: 0.07em;
+}
+
+
+
+
