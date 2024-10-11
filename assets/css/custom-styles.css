@@ -72,3 +72,30 @@
 .spacing {
     margin: 0.7em 0 0.9em 0;
 }
+
+
+.home-box {
+    padding: 0.8em;
+}
+
+.box-container {
+    margin: 1em 0 !important;
+}
+
+.home-box a {
+    color: #031f44 !important;
+}
+
+.home-box a:hover {
+    color: #054080 !important;
+}
+
+
+.home-box i {
+    font-size: 2rem;
+    color: #35dba0;
+}
+
+.margins-all {
+    margin: 1.5em 0 !important;
+}
