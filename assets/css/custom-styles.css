@@ -78,6 +78,10 @@
     padding: 0.8em;
 }
 
+.padding {
+    padding: 0.8em;
+}
+
 .box-container {
     margin: 1em 0 !important;
 }
@@ -99,3 +103,46 @@
 .margins-all {
     margin: 1.5em 0 !important;
 }
+
+.blue {
+    color: #4677e1;
+}
+
+.text-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-image-container img.align-right {
+    width: 15%;
+    height: auto;
+    object-fit: contain;
+}
+
+.text-image-container p {
+    width: 80%;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .text-image-container img.align-right {
+        width: 20%;
+    }
+
+    .text-image-container p {
+        width: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-image-container img.align-right {
+        width: 25%;
+    }
+
+    .text-image-container p {
+        width: 70%;
+    }
+}
+
+
