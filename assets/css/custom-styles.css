@@ -145,4 +145,31 @@
     }
 }
 
+h3.below {
+    margin-top: 1em !important;
+}
+
+
+.advantages-list {
+    list-style: none; 
+    padding-left: 0;
+    margin: 1em 0;
+}
+
+.advantages-list li {
+    margin-bottom: 0.75em;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.advantages-list li:before {
+    content: "\f058"; /* Font Awesome Check Icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #35dba0;
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+}
+
 
