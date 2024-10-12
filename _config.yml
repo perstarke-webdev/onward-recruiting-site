@@ -13,7 +13,7 @@ locale                   : "en-US"
 title                    : "Onward Recruiting"
 title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
-url                      : "https://test123domain123.de" # the base hostname & protocol for your site
+url                      : " # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "perstarke-webdev/onward-recruiting-site" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -39,10 +39,10 @@ footer:
       url: "mailto: info@onward-recruiting.de"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.instagram.com/per.starke/"
+      # url: ""
     - label: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://www.instagram.com/per.starke/"
+      url: "https://www.instagram.com/onward.recruiting/"
   copyright: "Onward Recruiting GmbH"
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "Per Starke Web Development"
