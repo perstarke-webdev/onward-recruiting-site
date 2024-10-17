@@ -76,7 +76,7 @@ body {
   font-family: $global-font-family;
   font-size: $type-size-4;
   text-align: center;
-  color: #00122a !important;
+  color: #fff !important;
 }
 
 .page__content {
@@ -297,7 +297,7 @@ text-align: center;
 
 
 .page__hero--overlay {
-    background-image: radial-gradient(circle at center, #fbf6e8 65%, rgba(251, 246, 232, 0) 85%),
+    background-image: radial-gradient(circle at center, #00122a 65%, rgba(251, 246, 232, 0) 85%),
                     linear-gradient(to right, rgba(53, 219, 160, 0.7), rgba(70, 119, 225, 0.7));
     height: 100vh;
     background-size: cover;
@@ -310,7 +310,7 @@ text-align: center;
 
 @media only screen and (max-width: 768px) {
     .page__hero--overlay {
-        background-image: radial-gradient(circle at center, #fbf6e8 65%, rgba(251, 246, 232, 0) 85%),
+        background-image: radial-gradient(circle at center, #00122a 65%, rgba(251, 246, 232, 0) 85%),
                         linear-gradient(to right, rgba(53, 219, 160, 0.7), rgba(70, 119, 225, 0.7));
         background-attachment: scroll;
     }

@@ -39,16 +39,16 @@
 }
 
 .notice-link {
-    color: #4677e1 !important;
+    color: #5a95e5 !important;
 }
 
 .notice-link:hover {
-    color: #3d69c9 !important;
+    color: #4677e1 !important;
 }
 
 .logo-colored-icon {
     display: inline-block;
-    background-image: linear-gradient(to right, #35dba0, #4677e1);
+    background-image: linear-gradient(to right, #5a95e5, #5a95e5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -87,11 +87,11 @@
 }
 
 .home-box a {
-    color: #031f44 !important;
+    color: #5a95e5 !important;
 }
 
 .home-box a:hover {
-    color: #054080 !important;
+    color: #4677e1 !important;
 }
 
 
@@ -105,7 +105,7 @@
 }
 
 .blue {
-    color: #4677e1;
+    color: #5a95e5;
 }
 
 .text-image-container {
