@@ -5,8 +5,8 @@
 }
 
 .box {
-    border: 1.5px solid black;
-    border-radius: 5px;
+    border: 0.5px solid black;
+    border-radius: 8px;
     background-color: rgba($primary-color, 0.05);
     flex: 1 1 calc(100% - 20px);
 }
@@ -16,7 +16,7 @@
 }
 
 .box--primary {
-    border-color: $primary-color
+    border-color: mix($primary-color, transparent, 50%)
 }
 
 .box--success {
@@ -32,7 +32,7 @@
 }
 
 .box--info {
-    border-color: $info-color
+    border-color: mix(#2fa786, transparent, 50%)
 }
 
 @media (min-width: 768px) {
