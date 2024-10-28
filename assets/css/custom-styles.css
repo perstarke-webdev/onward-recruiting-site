@@ -176,3 +176,14 @@ h3.below {
     color: white !important;
 }
 
+.team-img {
+    width: 50vw;
+}
+
+
+@media (max-width: 767px){
+    .team-img {
+        width: 90vw;
+    }
+}
+
