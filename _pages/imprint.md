@@ -18,7 +18,7 @@ Onward Recruiting GmbH
 Kantstraße 22   
 44867 Bochum
 
-Geschäftsführer 
+Geschäftsführer:
 Jasper Schippmann,   
 Lukas Griesser,   
 Khuong Le
