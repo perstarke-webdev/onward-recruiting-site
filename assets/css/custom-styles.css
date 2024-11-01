@@ -95,7 +95,7 @@
 }
 
 
-.home-box i {
+.info-i {
     font-size: 2rem;
     color: #2fa786;
 }
@@ -175,6 +175,15 @@ h3.below {
 .white {
     color: white !important;
 }
+
+.white-icon{
+    color: white !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .team-img {
     width: 50vw;
