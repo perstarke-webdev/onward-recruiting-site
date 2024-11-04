@@ -26,7 +26,7 @@ Khuong Le
 
 
 #### Kontakt
-+49 2327 1424924-0   
++49 2327 1424924 20   
 info_at_onward-recruiting.de      
 j.schippmann_at_onward-recruiting.de
 
