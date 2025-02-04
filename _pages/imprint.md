@@ -16,7 +16,7 @@ permalink: /imprint
 #### Anbieter und Verantwortliche Person
 Onward Recruiting GmbH   
 Umsatzsteuer-ID: DE449625793   
-Handelsregister-ID: HRB 21860   
+Handelsregisternummer: HRB 21860   
 Kantstraße 22   
 44867 Bochum
 
